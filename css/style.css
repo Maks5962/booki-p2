@@ -230,6 +230,11 @@ a {
     color: var(--main-bg-color)
 }
 
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -287,6 +292,10 @@ a {
     margin-bottom: 8px;
 }
 
+.hebergements h4 {
+    margin: 30px 0 0 0;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -332,8 +341,76 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.activites {
+    margin: 35px 0;
+}
+
+.activites .section-title {
+    padding: 30px;
+}
+
+.activitesCards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.activitesCards .card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 297.5px;
+    height: 439px;
+}
+
+.activitesCards img {
+    border-radius: 20px 20px 0 0;
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activitesCards .card-title {
+    padding: 20px 19px;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
+footer {
+    margin: 70px 0 0 0;
+    background-color: var(--main-bg-color);
+    display: flex;
+}
+
+.colonneFooter {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400px;    
+}
+
+.colonneFooter ul {
+    margin: 0;
+    padding: 0;
+}
+
+.colonneFooter li {
+    list-style: none;
+    margin: 15px 20px;
+    padding: 0;
+}
+
+.colonneFooter h2 {
+    margin: 20px 15px 15px 20px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
