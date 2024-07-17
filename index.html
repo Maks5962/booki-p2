@@ -20,8 +20,8 @@
             <img src="images/logo/Booki.png" alt="Logo du site internet Booki"> 
             <nav>
                 <ul>
-                    <li><a href="#" title="Hébergements à Marseille">Hébergements</a></li>
-                    <li><a href="#" title="Activités à Marseille">Activités</a></li>
+                    <li><a href="#hebergements" title="Hébergements à Marseille">Hébergements</a></li>
+                    <li><a href="#activites" title="Activités à Marseille">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,7 +33,7 @@
                 <label for="ville"><i class="fa-solid fa-location-dot"></i></label>
                 <input type="search" name="ville" id="ville" value="Marseille, France">
                 <button class="btn_rechercher_desktop">Rechercher</button>
-                <!-- <button class="btn_rechercher_mobile"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+                <button class="btn_rechercher_mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
 
             <div class="categorieFiltres">
@@ -54,10 +54,10 @@
 
         <main>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergementsCards">                    
-                        <a href="#">
+                        <a href="#" class="liensHebergements">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre de l'hôtel montrant deux lits simples">
                                 <div class="card-content">
@@ -77,7 +77,7 @@
                             </article>
                         </a>
 
-                        <a href="#">
+                        <a href="#" class="liensHebergements">
                             <article class="card">
                                 <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre de l'hôtel montrant un lit, un bureau et une télévision">
                                 <div class="card-content">
@@ -97,7 +97,7 @@
                             </article>
                         </a>
 
-                        <a href="#">
+                        <a href="#" class="liensHebergements">
                             <article class="card">
                                 <img src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre de l'hôtel montrant un lit, une table de chevet et un dressing">
                                 <div class="card-content">
@@ -117,7 +117,7 @@
                             </article>
                         </a>
 
-                        <a href="#">
+                        <a href="#" class="liensHebergements">
                             <article class="card">
                                 <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre de l'hôtel montrant un lit double devant un tableau représentant la mer">
                                 <div class="card-content">
@@ -137,7 +137,7 @@
                             </article>
                         </a>
 
-                        <a href="#">
+                        <a href="#" class="liensHebergements">
                             <article class="card">
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="Image de l'auberge montrant un lit superposé avec vue sur la Canebière">
                                 <div class="card-content">
@@ -157,7 +157,7 @@
                             </article>
                         </a>
 
-                        <a href="#">
+                        <a href="#" class="liensHebergements">
                             <article class="card">
                                 <img src="./images/hebergements/nicate-lee.jpg" alt="Image de l'auberge montrant un lit superposé en bois">
                                 <div class="card-content">
@@ -253,31 +253,31 @@
                 </section>
             </div>
 
-            <section class="activites">
+            <section id="activites">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activitesCards">
-                    <a href="#" title="Vieux-Port">
+                    <a href="#" title="Vieux-Port" class="liensActivites">
                         <div class="card">
                             <img src="images/activites/reno-laithienne.jpg" alt="Photo du vieux port">
                             <div class="card-title">Vieux-Port</div>
                         </div>
                     </a>
                     
-                    <a href="#" title="Fort de Pomègues">
+                    <a href="#" title="Fort de Pomègues" class="liensActivites">
                         <div class="card">
                             <img src="images/activites/paul-hermann.jpg" alt="Photo du Fort de Pomègues">
                             <div class="card-title">Fort de Pomègues</div>
                         </div>
                     </a>
 
-                    <a href="#" title="Parc national des Calanques">
+                    <a href="#" title="Parc national des Calanques" class="liensActivites">
                         <div class="card">
                             <img src="images/activites/kilyan-sockalingum.jpg" alt="Photo du Parc national des Calanques">
                             <div class="card-title">Parc national des Calanques</div>
                         </div>
                     </a>
 
-                    <a href="#" title="Notre-Dame-de-la-Garde">
+                    <a href="#" title="Notre-Dame-de-la-Garde" class="liensActivites">
                         <div class="card">
                             <img src="images/activites/florian-wehde.jpg" alt="Photo de Notre-Dame-de-la-Garde">
                             <div class="card-title">Notre-Dame-de-la-Garde</div>
